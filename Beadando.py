@@ -1,1 +1,2 @@
-y="yeeeeee"
+#27. feladat
+import numpy as np

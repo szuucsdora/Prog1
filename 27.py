@@ -20,7 +20,7 @@ def oszlopbanlegnagyobb(m):
         legnagyobb = 0
 
 
-print(oszlopbanlegnagyobb(m))
+#print(oszlopbanlegnagyobb(m))
 
 
 def sorbanlegnagyobb(m):
@@ -37,7 +37,7 @@ def sorbanlegnagyobb(m):
         legnagyobb = 0
 
 
-print(sorbanlegnagyobb(m))
+#print(sorbanlegnagyobb(m))
 
 
 def osszeg1(m):
@@ -80,7 +80,12 @@ def osszeg(m):
         ossz+=j
     print('Ezek összege: {}'.format(ossz))
 
+def osszefuz(m):
+    print(oszlopbanlegnagyobb(m))
+    print(sorbanlegnagyobb(m))
+    print(osszeg(m))
 
-print(osszeg1(m))
-print(osszeg2(m))
-print(osszeg(m))
+#print(osszeg1(m))
+#print(osszeg2(m))
+#print(osszeg(m))
+print(osszefuz(m))
